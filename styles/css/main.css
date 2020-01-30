@@ -197,11 +197,27 @@ Second Color: #ec1c23
   margin-bottom: 20px;
 }
 
-.latest-posts p {
+.latest-posts .section-description {
   font-size: 20px;
   line-height: 1.6;
   width: 80%;
-  margin: 0 auto 15px;
+  margin: 0 auto 35px;
   color: #6a6a6a;
+}
+.latest-posts .card {
+  margin-bottom: 25px;
+}
+.latest-posts .card .card-title {
+  color: #08526d;
+}
+.latest-posts .card .card-text {
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.latest-posts .card .card-link {
+  color: #ec1c23;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 /**********************************   End Latest Post *******************************/
